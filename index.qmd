@@ -1,0 +1,9 @@
+---
+title: "MIDSEA Early Career Researchers Network"
+about:
+  template: jolla
+  image: profile.jpg
+  image-shape: rectangle
+---
+
+The MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A).

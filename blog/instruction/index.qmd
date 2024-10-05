@@ -1,0 +1,6 @@
+---
+title: "Instruction for writing a post"
+date: 2024-10-05
+categories: [instruction]
+draft: false
+---

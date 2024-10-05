@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MIDSEA ECR"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: People
+        href: people.qmd
+      - text: Blog
+        href: blog.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
