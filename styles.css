@@ -1,0 +1,16 @@
+/* Source: https://ellakaye.co.uk/posts/2023-04-11_animated-logo/ */
+
+.navbar-title:hover > .logo-line {
+  animation-duration: 600ms;
+  animation-name: line-expand;
+}
+
+@keyframes line-expand {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 100%;
+  }
+}

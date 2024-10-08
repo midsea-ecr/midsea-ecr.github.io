@@ -5,6 +5,7 @@ project:
 website:
   title: "MIDSEA ECR"
   navbar:
+    title: "<span class='logo-ecr'>MIDSEA</span><span class='logo-line'></span><span class='logo-ecr'>ECR</span>"
     background: light
     left:
       - text: Home
@@ -19,6 +20,7 @@ website:
 format:
   html:
     theme: [zephyr, custom.scss]
+    css: styles.css
     toc: true
 
 

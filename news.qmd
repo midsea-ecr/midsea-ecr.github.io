@@ -5,7 +5,8 @@ listing:
   type: default
   sort: "date desc"
   categories: true
-  sort-ui: [date]
+  sort-ui: true
+  filter-ui: true
   image-height: 5rem
 comments: false
 ---

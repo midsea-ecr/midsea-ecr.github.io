@@ -13,3 +13,18 @@ div.quarto-post .metadata {
 div.quarto-post .body {
   flex-basis: 55%;
 }
+
+.logo-ecr {
+  color: #000000;
+}
+
+.logo-line {
+  display: block;
+  background: $primary;
+  width: 100%;
+  height: 5px;
+  margin: auto;
+  display: table;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
