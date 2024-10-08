@@ -4,5 +4,17 @@
     "items": [
       "/blog/instruction/index.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/test/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/test/index.html"
+    ]
   }
 ]

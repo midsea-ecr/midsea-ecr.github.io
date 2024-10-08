@@ -5,9 +5,12 @@ project:
 website:
   title: "MIDSEA ECR"
   navbar:
+    background: light
     left:
       - text: Home
         href: index.qmd
+      - text: News
+        href: news.qmd
       - text: People
         href: people.qmd
       - text: Blog
@@ -15,8 +18,7 @@ website:
 
 format:
   html:
-    theme: zephyr
-    css: styles.css
+    theme: [zephyr, custom.scss]
     toc: true
 
 

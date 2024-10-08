@@ -1,0 +1,11 @@
+---
+title: "News"
+listing:
+  contents: news
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: [date]
+  image-height: 5rem
+comments: false
+---

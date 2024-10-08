@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "news/test/index.html",
+    "href": "news/test/index.html",
+    "title": "Website created",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
@@ -7,10 +14,24 @@
     "text": "Instruction for writing a post\n\n\n\ninstruction\n\n\n\n\n\n\n\n\n\n\nOct 5, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MIDSEA Early Career Researchers Network",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "MIDSEA ECR",
+    "section": "Welcome!",
+    "text": "Welcome!\n\nThe MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A)."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "MIDSEA ECR",
+    "section": "News",
+    "text": "News\n\n\n\n\n\nWebsite created\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.\n\n\n\ninstruction\n\n\n\n\n\n\nOct 5, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
     "section": "",
-    "text": "The MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A)."
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nWebsite created\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.\n\n\n\ninstruction\n\n\n\n\n\n\n\n\n\nOct 5, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]

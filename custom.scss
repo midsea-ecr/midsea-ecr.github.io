@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+$fontsize: 0.9rem;
+
+/*-- scss:rules --*/
+div.quarto-post {
+  gap: 0.5em;
+}
+
+div.quarto-post .metadata {
+  flex-basis: 25%;
+}
+
+div.quarto-post .body {
+  flex-basis: 55%;
+}
