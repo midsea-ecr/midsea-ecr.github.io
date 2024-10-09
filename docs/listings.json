@@ -1,9 +1,19 @@
 [
   {
+    "listing": "/gallery.html",
+    "items": [
+      "/gallery/summer-school-2024/index.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/blog/instruction/index.html"
     ]
+  },
+  {
+    "listing": "/gallery/summer-school-2024/index.html",
+    "items": []
   },
   {
     "listing": "/index.html",

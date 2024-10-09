@@ -1,0 +1,17 @@
+---
+title: "MIDSEA summer school 2024"
+page-layout: full
+listing:
+  id: listing-gallery
+  template: ../gallery.ejs
+  contents:
+    - photos/*.jpg
+  sort-ui: false
+  filter-ui: false
+  categories: false
+---
+
+More photos available [here](https://photos.app.goo.gl/C19BtnCFxWhcTdwX9).
+
+::: {#listing-gallery}
+:::

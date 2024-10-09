@@ -14,6 +14,8 @@ website:
         href: news.qmd
       - text: People
         href: people.qmd
+      - text: Gallery
+        href: gallery.qmd
       - text: Blog
         href: blog.qmd
 

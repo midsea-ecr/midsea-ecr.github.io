@@ -4,6 +4,8 @@ listing:
   contents: blog
   type: grid
   sort: "date desc"
+  sort-ui: true
+  filter-ui: true
   categories: true
 comments: false
 ---
