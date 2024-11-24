@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: "G-NYC0VGZH85"
   title: "MIDSEA ECR"
   navbar:
     title: "<span class='logo-ecr'>MIDSEA</span><span class='logo-line'></span><span class='logo-ecr'>ECR</span>"
