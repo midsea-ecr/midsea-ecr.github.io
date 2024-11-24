@@ -1,12 +1,20 @@
 ---
+toc: false
 listing:
-  id: news
-  contents: news
-  type: default
-  sort: "date desc"
-  fields: [date, categories, title, subtitle]
-  categories: true
-  max-items: 3
+  - id: news
+    contents: news
+    type: default
+    sort: "date desc"
+    fields: [date, categories, title, description]
+    categories: true
+    max-items: 3
+    max-description-length: 100
+  - id: blog
+    contents: blog
+    type: default
+    sort: "date desc"
+    max-items: 3
+    max-description-length: 100
 comments: false
 ---
 
@@ -31,5 +39,10 @@ The MIDSEA Network is a consortium of people working in the area of modelling (M
 
 :::
 
+:::
+
+## New blog posts
+
+::: {#blog}
 :::
 

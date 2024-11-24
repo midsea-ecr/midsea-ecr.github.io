@@ -1,8 +1,9 @@
 ---
 title: "Blog"
 listing: 
-  contents: blog
   type: grid
+  contents: blog
+  fields: [image, date, title, subtitle, author]
   sort: "date desc"
   sort-ui: true
   filter-ui: true

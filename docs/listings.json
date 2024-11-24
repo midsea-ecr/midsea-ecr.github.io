@@ -1,13 +1,9 @@
 [
   {
-    "listing": "/gallery.html",
+    "listing": "/index.html",
     "items": [
-      "/gallery/summer-school-2024/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
+      "/news/test/index.html",
+      "/blog/guide-conf-chair/index.html",
       "/blog/instruction/index.html"
     ]
   },
@@ -16,9 +12,16 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/news/test/index.html"
+      "/blog/guide-conf-chair/index.html",
+      "/blog/instruction/index.html"
+    ]
+  },
+  {
+    "listing": "/gallery.html",
+    "items": [
+      "/gallery/summer-school-2024/index.html"
     ]
   },
   {

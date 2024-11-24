@@ -1,10 +1,7 @@
 ---
 title: "Website created"
-subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
 date: 2024-10-05
-categories: [instruction]
-image: profile.jpg
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Our website is live and ready to bring us closer together! This will be the go-to place for news, opportunities, resources, photo archives and blog. We encourage everyone to share their ideas, stories, or even snippets from daily life through blog posts. Simply let Thinh know your GitHub username to be added as a contributor to the repository.

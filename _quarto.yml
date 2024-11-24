@@ -8,12 +8,16 @@ website:
     title: "<span class='logo-ecr'>MIDSEA</span><span class='logo-line'></span><span class='logo-ecr'>ECR</span>"
     background: light
     left:
-      - text: Home
-        href: index.qmd
       - text: News
         href: news.qmd
       - text: People
         href: people.qmd
+      - text: Mentorship
+        href: mentor.qmd
+      - text: Monthly meetings
+        href: meeting.qmd
+      - text: Materials
+        href: mat.qmd
       - text: Gallery
         href: gallery.qmd
       - text: Blog

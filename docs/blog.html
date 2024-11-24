@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -149,16 +149,24 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./people.html"> 
 <span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./mentor.html"> 
+<span class="menu-text">Mentorship</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./meeting.html"> 
+<span class="menu-text">Monthly meetings</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./mat.html"> 
+<span class="menu-text">Materials</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./gallery.html"> 
@@ -181,7 +189,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="instruction">instruction <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="guide">guide <span class="quarto-category-count">(1)</span></div><div class="category" data-category="instruction">instruction <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -235,7 +243,32 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="instruction" data-listing-date-sort="1728061200000" data-listing-file-modified-sort="1728123876997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="guide" data-listing-date-sort="1732467600000" data-listing-file-modified-sort="1732436649316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1130">
+<a href="./blog/guide-conf-chair/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./blog/guide-conf-chair/img/preview.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How to survive from chairing a conference session
+</h5>
+<div class="card-subtitle listing-subtitle">
+From panic to enjoy: a beginner’s survival guide
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Thinh Ong
+</div>
+<div class="listing-date">
+Nov 25, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="instruction" data-listing-date-sort="1728061200000" data-listing-file-modified-sort="1728123876997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./blog/instruction/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -243,14 +276,6 @@ window.Quarto = {
 <h5 class="no-anchor card-title listing-title">
 Instruction for writing a post
 </h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('instruction'); return false;">
-instruction
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
