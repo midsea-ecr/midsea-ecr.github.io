@@ -6,7 +6,6 @@ listing:
   type: grid
   sort: "date desc"
   categories: true
-comments: false
 ---
 
 ::: {#gallery}

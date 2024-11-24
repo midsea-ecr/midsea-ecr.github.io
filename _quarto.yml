@@ -29,5 +29,7 @@ format:
     css: styles.css
     toc: true
 
-
+comments:
+  giscus:
+    repo: midsea-ecr/midsea-ecr.github.io
 
