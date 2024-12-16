@@ -1,5 +1,6 @@
 ---
 title: "Website created"
+subtitle: "Save this date for a future celebration"
 date: 2024-10-05
 draft: false
 ---

@@ -5,7 +5,6 @@ listing:
   contents: gallery
   type: grid
   sort: "date desc"
-  categories: true
 ---
 
 ::: {#gallery}

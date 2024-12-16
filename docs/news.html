@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -252,7 +252,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1728061200000" data-listing-file-modified-sort="1732437161891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1728061200000" data-listing-file-modified-sort="1734361590632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
 <div class="thumbnail">
 <p><a href="./news/test/index.html" class="no-external"></a></p><a href="./news/test/index.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" style="height: 5rem;">&nbsp;</div>
@@ -263,7 +263,7 @@ window.Quarto = {
 <a href="./news/test/index.html" class="no-external">Website created</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./news/test/index.html" class="no-external"></a>
+<a href="./news/test/index.html" class="no-external">Save this date for a future celebration</a>
 </div>
 <div class="listing-description">
 <a href="./news/test/index.html" class="no-external">Our website is live and ready to bring us closer together! This will be the go-to place for news, opportunities, resources, photo archives and blog. We encourage everyone to…</a>
@@ -702,6 +702,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="midsea-ecr/midsea-ecr.github.io" data-repo-id="R_kgDOM706EA" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 
 

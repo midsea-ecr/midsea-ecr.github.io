@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-categories','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-comments','listing-language','listing-title','listing-subtitle','listing-date','listing-draft','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-subtitle","listing-date","listing-draft","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -106,9 +106,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-comments','listing-language','listing-title','listing-subtitle','listing-date','listing-author','listing-categories','listing-image','listing-draft','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-comments","listing-language","listing-title","listing-subtitle","listing-date","listing-author","listing-categories","listing-image","listing-draft","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -168,7 +168,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -224,49 +224,92 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="guide">guide <span class="quarto-category-count">(1)</span></div><div class="category" data-category="instruction">instruction <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="profile.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<p>The MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A).</p>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
-<section id="welcome" class="level2 left quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<h2 class="anchored" data-anchor-id="welcome">Welcome!</h2>
-<p><img src="profile.jpg" class="img-fluid"></p>
-<p>The MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A).</p>
+<section id="news" class="level3 left quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="news">News</h3>
+<div id="listing-news" class="quarto-listing quarto-listing-container-custom">
+
+  <div class="bg-body-light shadow-sm border rounded-3 px-3 py-3 mb-2 text-dark">
+  
+    
+    
+    <div class="container px-0">
+      <strong><a class="card-title" href="./news/test/index.html" style="text-decoration: none">Website created</a></strong>
+      
+      <p class="card-subtitle mb-2 text-muted">Save this date for a future celebration</p>
+      
+      <p class="lh-1 mb-0"><small></small></p>
+      
+      <p class="lh-1 mb-0"><small>Oct 5, 2024</small></p>
+    
+    </div>
+  
+  </div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="news" class="level2 right quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<div id="listing-news" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1728061200000" data-listing-file-modified-sort="1732437161891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/test/index.html" class="no-external">Website created</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./news/test/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./news/test/index.html" class="no-external">Our website is live and ready to bring us closer together! This will be the go-to place for news…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./news/test/index.html" class="no-external">
-<div class="listing-date">
-Oct 5, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
+<section id="blog" class="level3 right quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="blog">Blog</h3>
+<div id="listing-blog" class="quarto-listing quarto-listing-container-custom">
+
+  <div class="bg-body-light shadow-sm border rounded-3 px-3 py-3 mb-2 text-dark">
+  
+    
+    
+      <img src="./blog/guide-conf-chair/img/preview.jpg" class="rounded-3" style="max-height:150px; height:100%; width:100%; object-fit: cover;">
+      
+    
+    
+    <div class="container px-0">
+      <strong><a class="card-title" href="./blog/guide-conf-chair/index.html" style="text-decoration: none">How to survive from chairing a conference session</a></strong>
+      
+      <p class="card-subtitle mb-2 text-muted">From panic to enjoy: a beginner's survival guide</p>
+      
+      <p class="lh-1 mb-0"><small>Thinh Ong</small></p>
+      
+      <p class="lh-1 mb-0"><small>Nov 25, 2024</small></p>
+    
+    </div>
+  
+  </div>
+
+  <div class="bg-body-light shadow-sm border rounded-3 px-3 py-3 mb-2 text-dark">
+  
+    
+    
+    <div class="container px-0">
+      <strong><a class="card-title" href="./blog/instruction/index.html" style="text-decoration: none">Instruction for writing a post</a></strong>
+      
+      <p class="card-subtitle mb-2 text-muted"></p>
+      
+      <p class="lh-1 mb-0"><small></small></p>
+      
+      <p class="lh-1 mb-0"><small>Oct 5, 2024</small></p>
+    
+    </div>
+  
+  </div>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -274,82 +317,9 @@ No matching items
 </section>
 </div>
 </div>
-<section id="new-blog-posts" class="level2">
-<h2 class="anchored" data-anchor-id="new-blog-posts">New blog posts</h2>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="guide" data-listing-date-sort="1732467600000" data-listing-file-modified-sort="1732436649316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1130">
-<div class="thumbnail">
-<p><a href="./blog/guide-conf-chair/index.html" class="no-external"></a></p><a href="./blog/guide-conf-chair/index.html" class="no-external">
-<p><img loading="lazy" src="./blog/guide-conf-chair/img/preview.jpg" class="thumbnail-image"></p>
-</a><p><a href="./blog/guide-conf-chair/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/guide-conf-chair/index.html" class="no-external">How to survive from chairing a conference session</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/guide-conf-chair/index.html" class="no-external">From panic to enjoy: a beginner’s survival guide</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('guide'); return false;">
-guide
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/guide-conf-chair/index.html" class="no-external">This was just the third conference I’d ever attended, and since I’d always been a diligent…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/guide-conf-chair/index.html" class="no-external">
-<div class="listing-date">
-Nov 25, 2024
-</div>
-<div class="listing-author">
-Thinh Ong
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="instruction" data-listing-date-sort="1728061200000" data-listing-file-modified-sort="1728123876997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./blog/instruction/index.html" class="no-external"></a></p><a href="./blog/instruction/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/instruction/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/instruction/index.html" class="no-external">Instruction for writing a post</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/instruction/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('instruction'); return false;">
-instruction
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/instruction/index.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/instruction/index.html" class="no-external">
-<div class="listing-date">
-Oct 5, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
 
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

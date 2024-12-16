@@ -8,5 +8,4 @@ listing:
   sort-ui: true
   filter-ui: true
   image-height: 5rem
-comments: false
 ---

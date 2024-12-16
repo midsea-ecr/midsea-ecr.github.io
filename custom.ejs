@@ -1,0 +1,27 @@
+```{=html}
+
+<% for (const item of items) { %>
+
+  <div class='bg-body-light shadow-sm border rounded-3 px-3 py-3 mb-2 text-dark'>
+  
+    <% if (item == items[0] && item.image) { %>
+    
+      <img src='<%- item.image%>' class='rounded-3' style='max-height:150px; height:100%; width:100%; object-fit: cover;' />
+      
+    <% } %>
+    
+    <div class='container px-0'>
+      <strong><a class='card-title' href='<%- item.path %>' style='text-decoration: none'><%= item.title %></a></strong>
+      
+      <p class='card-subtitle mb-2 text-muted'><%- item.subtitle %></p>
+      
+      <p class='lh-1 mb-0'><small><%- item.author %></small></p>
+      
+      <p class='lh-1 mb-0'><small><%- item.date %></small></p>
+    
+    </div>
+  
+  </div>
+
+<% } %>
+```

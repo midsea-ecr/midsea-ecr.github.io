@@ -3,46 +3,38 @@ toc: false
 listing:
   - id: news
     contents: news
-    type: default
-    sort: "date desc"
-    fields: [date, categories, title, description]
-    categories: true
-    max-items: 3
-    max-description-length: 100
+    template: custom.ejs
   - id: blog
     contents: blog
-    type: default
-    sort: "date desc"
-    max-items: 3
-    max-description-length: 100
+    template: custom.ejs
 comments: false
 ---
+
+![](profile.jpg){width=50% fig-align="center"}
+
+The MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A).
 
 ::: {layout-ncol=2}
 
 ::: {.left}
 
-## Welcome!
-
-![](profile.jpg)
-
-The MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A).
-
-:::
-
-::: {.right}
-
-## News
+### News
 
 ::: {#news}
 :::
 
 :::
 
-:::
+::: {.right}
 
-## New blog posts
+### Blog
 
 ::: {#blog}
 :::
+
+:::
+
+:::
+
+
 
