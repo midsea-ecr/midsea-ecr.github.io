@@ -1,0 +1,8 @@
+---
+title: "APIC-ADVA Summit"
+date: 2024-12-02
+image: preview.jpg
+draft: false
+---
+
+For info: [Website](https://www.apicsummit.org/)

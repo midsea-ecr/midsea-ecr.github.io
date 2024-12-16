@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/apic-2025/index.html",
       "/news/test/index.html",
       "/blog/guide-conf-chair/index.html",
       "/blog/instruction/index.html"
@@ -27,6 +28,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/apic-2025/index.html",
       "/news/test/index.html"
     ]
   }
