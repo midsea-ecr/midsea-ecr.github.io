@@ -1,5 +1,4 @@
 ---
-toc: false
 listing:
   - id: news
     contents: news
@@ -10,9 +9,15 @@ listing:
 comments: false
 ---
 
-![](profile.jpg){width=50% fig-align="center"}
-
-The MIDSEA Network is a consortium of people working in the area of modelling (M) infectious (I) diseases (D) in South (S) East (E) Asia (A).
+```{=html}
+<div class='banner-image column-screen'>
+  <div class='container px-4 text-center'>
+    <img src='logo.svg' style='max-width:60%;' />
+    <p class='fw-light'>The MIDSEA ECR Network is a consortium of early career researchers working in the area of modelling infectious diseases in South East Asia</p>
+  </div>
+  
+</div>
+```
 
 ::: {layout-ncol=2}
 

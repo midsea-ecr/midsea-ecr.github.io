@@ -254,3 +254,14 @@ div.quarto-post .body {
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
+
+.banner-image {
+  height: 100%;
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#quarto-content {
+  margin-top: 0;
+}
