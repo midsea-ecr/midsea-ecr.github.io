@@ -1,0 +1,16 @@
+---
+title: "News"
+subtitle: "What the network is talking about."
+page-layout: article
+listing:
+  id: news
+  contents: posts
+  type: default
+  sort: "date desc"
+  fields: [date, categories, title, description]
+  feed: true
+  page-size: 12
+---
+
+::: {#news}
+:::

@@ -1,0 +1,63 @@
+---
+title: "Join MIDSEA"
+subtitle: "Membership is free and open to anyone based in or working on South East Asia."
+page-layout: article
+---
+
+::: {.join}
+::: {.join-intro}
+
+Membership is **free** and open to anyone based in or working on South East
+Asia — from first-year PhD students to senior professors, and from within and
+beyond academia.
+
+**What you get**
+
+1. **Directory listing** — profile in the members directory with a link to your work.
+2. **Annual symposium** — reduced registration and travel bursaries for ECRs.
+3. **Slack & working groups** — disease-specific channels, shared pipelines, quick code reviews.
+4. **Training access** — free seats in every MIDSEA summer school and short course.
+
+:::
+
+::: {.join-form-wrap}
+
+```{=html}
+<form class="join-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Application received';">
+  <div class="field"><label>Full name</label><input placeholder="Nguyễn Minh Anh"></div>
+  <div class="field"><label>Institution</label><input placeholder="University of Health Sciences"></div>
+  <div class="field"><label>Country</label>
+    <select>
+      <option>Viet Nam</option><option>Thailand</option><option>Indonesia</option>
+      <option>Philippines</option><option>Malaysia</option><option>Singapore</option>
+      <option>Cambodia</option><option>Laos</option><option>Myanmar</option>
+      <option>Brunei</option><option>Timor-Leste</option><option>Other</option>
+    </select>
+  </div>
+  <div class="field"><label>Career stage</label>
+    <div class="checks" data-group="stage">
+      <span class="chk">PhD student</span>
+      <span class="chk on">Postdoc</span>
+      <span class="chk">Early faculty</span>
+      <span class="chk">Senior</span>
+      <span class="chk">Public health</span>
+    </div>
+  </div>
+  <div class="field"><label>Interests</label>
+    <div class="checks" data-group="topic">
+      <span class="chk on">Dengue</span>
+      <span class="chk">Malaria</span>
+      <span class="chk on">Respiratory</span>
+      <span class="chk">AMR</span>
+      <span class="chk">Zoonoses</span>
+      <span class="chk">TB</span>
+    </div>
+  </div>
+  <button class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 8px;">
+    Submit application ↗
+  </button>
+</form>
+```
+
+:::
+:::

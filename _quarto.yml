@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "assets/**"
+    - "data/**"
+
+website:
+  title: "MIDSEA"
+  description: "Modelling Infectious Diseases in South East Asia"
+  site-url: https://midsea.network
+  favicon: assets/favicon.svg
+
+  navbar:
+    logo: logo.svg
+    logo-alt: "MIDSEA"
+    title: false
+    background: light
+    pinned: true
+    collapse-below: lg
+    left:
+      - text: "About"
+        href: about.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Events"
+        href: events.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Training"
+        href: training.qmd
+      - text: "Mentorship"
+        href: mentorship.qmd
+    right:
+      - text: "Join"
+        href: join.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    background: light
+    left: |
+      © 2026 MIDSEA Network · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+    center: |
+      Modelling Infectious Diseases in South East Asia
+    right:
+      - icon: github
+        href: https://github.com/midsea
+      - icon: envelope
+        href: mailto:hello@midsea.network
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme/midsea.scss
+    css: theme/midsea.css
+    toc: false
+    page-layout: full
+    include-in-header:
+      - theme/fonts.html
+    include-after-body:
+      - theme/scripts.html
+    anchor-sections: true
+    smooth-scroll: true

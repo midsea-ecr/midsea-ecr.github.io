@@ -1,0 +1,17 @@
+---
+title: "Research"
+subtitle: "Selected publications from MIDSEA members."
+page-layout: article
+listing:
+  id: pubs
+  contents: publications
+  type: table
+  sort: "date desc"
+  fields: [date, title, authors, journal, topic]
+  filter-ui: [topic, journal]
+  sort-ui: [date, title, topic]
+  page-size: 20
+---
+
+::: {#pubs}
+:::

@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+
+$primary: #7410c6;
+$body-color: #1a0f36;
+$body-bg: #ffffff;
+$link-color: #7410c6;
+$link-hover-color: #2a1a4a;
+
+$font-family-sans-serif: "Inter", system-ui, sans-serif;
+$headings-font-family: "Space Grotesk", system-ui, sans-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, monospace;
+
+$navbar-bg: #ffffff;
+$navbar-fg: #1a0f36;
+$navbar-hl: #7410c6;
+
+$font-size-base: 1rem;
+$h1-font-size: clamp(3rem, 7vw, 7rem);
+$h2-font-size: clamp(2rem, 4vw, 3.5rem);
+$h3-font-size: 1.5rem;
+
+$headings-font-weight: 500;
+$headings-letter-spacing: -0.02em;
+
+/*-- scss:rules --*/
+
+:root {
+  --midsea-bg: #ffffff;
+  --midsea-surface: #faf8fc;
+  --midsea-surface-2: #f2edfa;
+  --midsea-ink: #1a0f36;
+  --midsea-ink-2: #4a4060;
+  --midsea-ink-3: #8a839f;
+  --midsea-line: #e8e4f1;
+  --midsea-line-2: #d9d2ea;
+  --midsea-primary: #7410c6;
+  --midsea-primary-soft: #e8e4f7;
+  --midsea-primary-deep: #2a1a4a;
+  --midsea-accent: #f2c94c;
+  --midsea-accent-2: #12a4a0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv11";
+}
+
+h1, h2, h3, h4 { letter-spacing: -0.02em; }
+h1 { letter-spacing: -0.035em; line-height: 0.98; }
+h2 { line-height: 1.05; letter-spacing: -0.03em; }

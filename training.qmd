@@ -1,0 +1,16 @@
+---
+title: "Training"
+subtitle: "Open courses, schools & teaching materials."
+page-layout: article
+listing:
+  id: courses
+  contents: courses
+  type: grid
+  grid-columns: 3
+  sort: "order asc"
+  fields: [title, description, duration, level]
+  filter-ui: [level]
+---
+
+::: {#courses}
+:::

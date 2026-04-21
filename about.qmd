@@ -1,0 +1,84 @@
+---
+title: "About"
+subtitle: "A regional collective of infectious disease modellers."
+page-layout: article
+---
+
+MIDSEA is a network of early-career and senior researchers building
+**transparent, regionally-grounded mathematical models** of the infectious
+diseases that shape public health across South East Asia — from dengue and
+malaria to emerging zoonoses and AMR.
+
+We connect modellers with public health agencies, share code and data, train
+the next generation, and coordinate rapid responses when outbreaks cross
+borders.
+
+## Our principles
+
+::: {.pillars}
+
+::: {.pillar}
+
+::: {.num}
+→ 01
+:::
+
+::: {.pillar-body}
+### Open, reproducible science
+Every MIDSEA model ships with code, data provenance, and validation notebooks
+under open licences.
+:::
+
+[Practice]{.tag}
+
+:::
+
+::: {.pillar}
+
+::: {.num}
+→ 02
+:::
+
+::: {.pillar-body}
+### Regionally grounded
+Priorities set by the region: surveillance gaps, seasonal vectors, demographic
+realities unique to SEA.
+:::
+
+[Focus]{.tag}
+
+:::
+
+::: {.pillar}
+
+::: {.num}
+→ 03
+:::
+
+::: {.pillar-body}
+### Training-first
+Annual schools, short courses and paired mentorship turn modelling into a
+shared regional capacity.
+:::
+
+[Pipeline]{.tag}
+
+:::
+
+::: {.pillar}
+
+::: {.num}
+→ 04
+:::
+
+::: {.pillar-body}
+### Policy-facing
+Direct channels to ministries of health and ASEAN-level bodies so models land
+where they matter.
+:::
+
+[Impact]{.tag}
+
+:::
+
+:::

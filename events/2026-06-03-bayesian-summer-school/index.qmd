@@ -1,0 +1,8 @@
+---
+title: "Bayesian inference for infectious disease"
+date: 2026-06-03
+kind: "Summer School"
+location: "Singapore · 5 days · Applications close 15 May"
+---
+
+An intensive five-day summer school covering Bayesian inference methods applied to infectious disease modelling. Topics include MCMC, hierarchical models, prior elicitation, and posterior predictive checks.

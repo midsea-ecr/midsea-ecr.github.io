@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "date": "2026-05-12",
+      "day": "12",
+      "month": "May",
+      "kind": "Workshop",
+      "title": "Reproducible pipelines for vector models",
+      "href": "events/2026-05-12-reproducible-pipelines/"
+    },
+    {
+      "date": "2026-06-03",
+      "day": "03",
+      "month": "Jun",
+      "kind": "Summer School",
+      "title": "Bayesian inference for infectious disease",
+      "href": "events/2026-06-03-bayesian-summer-school/"
+    },
+    {
+      "date": "2026-07-09",
+      "day": "09",
+      "month": "Jul",
+      "kind": "Working Group",
+      "title": "AMR surveillance methods · quarterly meetup",
+      "href": "events/2026-07-09-amr-quarterly/"
+    },
+    {
+      "date": "2026-08-21",
+      "day": "21",
+      "month": "Aug",
+      "kind": "Short Course",
+      "title": "Spatial epidemiology with R & Stan",
+      "href": "events/2026-08-21-spatial-epi-course/"
+    },
+    {
+      "date": "2026-09-18",
+      "day": "18",
+      "month": "Sep",
+      "kind": "Annual Symposium",
+      "title": "MIDSEA 2026 — Bangkok",
+      "href": "events/2026-09-18-midsea-bangkok/"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-04-14",
+      "day": "14",
+      "month": "Apr",
+      "category": "Preprint",
+      "title": "Dengue serotype dynamics paper accepted at Lancet ID",
+      "href": "posts/2026-04-14-dengue-lancet/"
+    },
+    {
+      "date": "2026-04-02",
+      "day": "02",
+      "month": "Apr",
+      "category": "Funding",
+      "title": "MIDSEA receives Funding Award extension",
+      "href": "posts/2026-04-02-funding-extension/"
+    },
+    {
+      "date": "2026-03-22",
+      "day": "22",
+      "month": "Mar",
+      "category": "Policy",
+      "title": "Response brief delivered to ASEAN health ministers",
+      "href": "posts/2026-03-22-asean-brief/"
+    },
+    {
+      "date": "2026-03-05",
+      "day": "05",
+      "month": "Mar",
+      "category": "People",
+      "title": "Meet the 2026 mentorship cohort — 24 new pairs",
+      "href": "posts/2026-03-05-mentorship-cohort/"
+    },
+    {
+      "date": "2026-02-11",
+      "day": "11",
+      "month": "Feb",
+      "category": "Tooling",
+      "title": "Open-sourcing the MIDSEA validation notebooks",
+      "href": "posts/2026-02-11-validation-notebooks/"
+    },
+    {
+      "date": "2026-01-23",
+      "day": "23",
+      "month": "Jan",
+      "category": "Community",
+      "title": "Call for Bangkok 2026 session chairs",
+      "href": "posts/2026-01-23-session-chairs/"
+    }
+  ]
+}

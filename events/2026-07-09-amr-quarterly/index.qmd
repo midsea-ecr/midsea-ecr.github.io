@@ -1,0 +1,8 @@
+---
+title: "AMR surveillance methods · quarterly meetup"
+date: 2026-07-09
+kind: "Working Group"
+location: "Online · 2 hours"
+---
+
+Quarterly meeting of the AMR working group to review progress on cross-country surveillance harmonisation, discuss new methods, and coordinate upcoming analyses.

@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "training.html",
+    "href": "training.html",
+    "title": "Training",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/2026-04-14-dengue-lancet/index.html",
+    "href": "posts/2026-04-14-dengue-lancet/index.html",
+    "title": "Dengue serotype dynamics paper accepted at Lancet ID",
+    "section": "",
+    "text": "The network’s flagship multi-country study on dengue serotype dynamics has been accepted for publication in The Lancet Infectious Diseases. This paper represents two years of collaborative data harmonisation across six MIDSEA member countries."
+  },
+  {
+    "objectID": "posts/2026-03-22-asean-brief/index.html",
+    "href": "posts/2026-03-22-asean-brief/index.html",
+    "title": "Response brief delivered to ASEAN health ministers",
+    "section": "",
+    "text": "MIDSEA has delivered a policy response brief to the ASEAN health ministers’ meeting, presenting recommendations on cross-border disease surveillance informed by our model ensemble results. The brief covers dengue, malaria, and respiratory pathogens."
+  },
+  {
+    "objectID": "posts/2026-02-11-validation-notebooks/index.html",
+    "href": "posts/2026-02-11-validation-notebooks/index.html",
+    "title": "Open-sourcing the MIDSEA validation notebooks",
+    "section": "",
+    "text": "We are releasing the MIDSEA validation notebook suite as open-source software. This collection of Jupyter and Quarto notebooks provides standardised checks for compartmental models, helping researchers verify that their implementations match published specifications."
+  },
+  {
+    "objectID": "events/2026-09-18-midsea-bangkok/index.html",
+    "href": "events/2026-09-18-midsea-bangkok/index.html",
+    "title": "MIDSEA 2026 — Bangkok",
+    "section": "",
+    "text": "The flagship annual symposium of the MIDSEA network, bringing together researchers, public health practitioners, and policymakers from across South East Asia. Three days of plenary talks, thematic sessions, and hands-on workshops."
+  },
+  {
+    "objectID": "events/2026-07-09-amr-quarterly/index.html",
+    "href": "events/2026-07-09-amr-quarterly/index.html",
+    "title": "AMR surveillance methods · quarterly meetup",
+    "section": "",
+    "text": "Quarterly meeting of the AMR working group to review progress on cross-country surveillance harmonisation, discuss new methods, and coordinate upcoming analyses."
+  },
+  {
+    "objectID": "events/2026-05-12-reproducible-pipelines/index.html",
+    "href": "events/2026-05-12-reproducible-pipelines/index.html",
+    "title": "Reproducible pipelines for vector models",
+    "section": "",
+    "text": "A hands-on workshop on building reproducible analysis pipelines for vector-borne disease models. Covers containerisation, version control for model outputs, and automated reporting."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "MIDSEA is a network of early-career and senior researchers building transparent, regionally-grounded mathematical models of the infectious diseases that shape public health across South East Asia — from dengue and malaria to emerging zoonoses and AMR.\nWe connect modellers with public health agencies, share code and data, train the next generation, and coordinate rapid responses when outbreaks cross borders."
+  },
+  {
+    "objectID": "about.html#our-principles",
+    "href": "about.html#our-principles",
+    "title": "About",
+    "section": "Our principles",
+    "text": "Our principles\n\n\n\n→ 01\n\n\nOpen, reproducible science\nEvery MIDSEA model ships with code, data provenance, and validation notebooks under open licences.\n\nPractice\n\n\n\n→ 02\n\n\nRegionally grounded\nPriorities set by the region: surveillance gaps, seasonal vectors, demographic realities unique to SEA.\n\nFocus\n\n\n\n→ 03\n\n\nTraining-first\nAnnual schools, short courses and paired mentorship turn modelling into a shared regional capacity.\n\nPipeline\n\n\n\n→ 04\n\n\nPolicy-facing\nDirect channels to ministries of health and ASEAN-level bodies so models land where they matter.\n\nImpact"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "General hello@midsea.network\n\n\nPress & media press@midsea.network\n\n\nPartnerships partners@midsea.network\n\n\nCoordination Hub ::: {.val} Faculty of Tropical Medicine, Mahidol University  BANGKOK 10400, THAILAND\n\n\n\nFollow Bluesky · GitHub · LinkedIn\n\n:::"
+  },
+  {
+    "objectID": "events/2026-06-03-bayesian-summer-school/index.html",
+    "href": "events/2026-06-03-bayesian-summer-school/index.html",
+    "title": "Bayesian inference for infectious disease",
+    "section": "",
+    "text": "An intensive five-day summer school covering Bayesian inference methods applied to infectious disease modelling. Topics include MCMC, hierarchical models, prior elicitation, and posterior predictive checks."
+  },
+  {
+    "objectID": "events/2026-08-21-spatial-epi-course/index.html",
+    "href": "events/2026-08-21-spatial-epi-course/index.html",
+    "title": "Spatial epidemiology with R & Stan",
+    "section": "",
+    "text": "A four-day short course on spatial epidemiology methods using R and Stan. Covers point processes, INLA, disease mapping on coarse surveillance data, and practical applications in South East Asian settings."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\nReproducible pipelines for vector models\n\n\n\n\n\n\n\n\nMay 12, 2026\n\n\n\n\n\n\n\nBayesian inference for infectious disease\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\nAMR surveillance methods · quarterly meetup\n\n\n\n\n\n\n\n\nJul 9, 2026\n\n\n\n\n\n\n\nSpatial epidemiology with R & Stan\n\n\n\n\n\n\n\n\nAug 21, 2026\n\n\n\n\n\n\n\nMIDSEA 2026 — Bangkok\n\n\n\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join MIDSEA",
+    "section": "",
+    "text": "Membership is free and open to anyone based in or working on South East Asia — from first-year PhD students to senior professors, and from within and beyond academia.\nWhat you get\n\nDirectory listing — profile in the members directory with a link to your work.\nAnnual symposium — reduced registration and travel bursaries for ECRs.\nSlack & working groups — disease-specific channels, shared pipelines, quick code reviews.\nTraining access — free seats in every MIDSEA summer school and short course.\n\n\n\n\n  Full name\n  Institution\n  Country\n    \n      Viet NamThailandIndonesia\n      PhilippinesMalaysiaSingapore\n      CambodiaLaosMyanmar\n      BruneiTimor-LesteOther\n    \n  \n  Career stage\n    \n      PhD student\n      Postdoc\n      Early faculty\n      Senior\n      Public health\n    \n  \n  Interests\n    \n      Dengue\n      Malaria\n      Respiratory\n      AMR\n      Zoonoses\n      TB\n    \n  \n  \n    Submit application ↗"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Dengue serotype dynamics paper accepted at Lancet ID\n\n\n\nPreprint\n\n\n\nThe network’s flagship multi-country study lands after two years of data harmonisation.\n\n\n\n\n\nApr 14, 2026\n\n\n\n\n\n\n\nMIDSEA receives Funding Award extension\n\n\n\nFunding\n\n\n\nThree additional years to build the regional modelling hub, including capacity grants for four new institutions.\n\n\n\n\n\nApr 2, 2026\n\n\n\n\n\n\n\nResponse brief delivered to ASEAN health ministers\n\n\n\nPolicy\n\n\n\nRecommendations on cross-border surveillance built on MIDSEA model ensembles.\n\n\n\n\n\nMar 22, 2026\n\n\n\n\n\n\n\nMeet the 2026 mentorship cohort — 24 new pairs\n\n\n\nPeople\n\n\n\nOur largest cohort yet, spanning nine countries and six disease areas.\n\n\n\n\n\nMar 5, 2026\n\n\n\n\n\n\n\nOpen-sourcing the MIDSEA validation notebooks\n\n\n\nTooling\n\n\n\nA shared suite to check whether your compartmental model does what the paper says it does.\n\n\n\n\n\nFeb 11, 2026\n\n\n\n\n\n\n\nCall for Bangkok 2026 session chairs\n\n\n\nCommunity\n\n\n\nSix thematic tracks; proposals due 15 May. ECRs especially encouraged.\n\n\n\n\n\nJan 23, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2026-01-23-session-chairs/index.html",
+    "href": "posts/2026-01-23-session-chairs/index.html",
+    "title": "Call for Bangkok 2026 session chairs",
+    "section": "",
+    "text": "We are now accepting proposals for session chairs at the MIDSEA 2026 symposium in Bangkok. The symposium will feature six thematic tracks, and we particularly encourage applications from early-career researchers. Proposals are due by 15 May 2026."
+  },
+  {
+    "objectID": "posts/2026-03-05-mentorship-cohort/index.html",
+    "href": "posts/2026-03-05-mentorship-cohort/index.html",
+    "title": "Meet the 2026 mentorship cohort — 24 new pairs",
+    "section": "",
+    "text": "We are excited to announce our largest mentorship cohort to date: 24 mentor-mentee pairs spanning nine countries and six disease areas. The 2026 cohort includes researchers working on dengue, malaria, AMR, TB, respiratory infections, and zoonoses."
+  },
+  {
+    "objectID": "posts/2026-04-02-funding-extension/index.html",
+    "href": "posts/2026-04-02-funding-extension/index.html",
+    "title": "MIDSEA receives Funding Award extension",
+    "section": "",
+    "text": "We are pleased to announce that the MIDSEA network has received a three-year funding extension to continue building the regional modelling hub. The extended grant includes capacity-building grants for four new partner institutions across the region."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        topic\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nDate\nTitle\nauthors\njournal\ntopic\n\n\n\n\n\nNo matching items"
+  }
+]

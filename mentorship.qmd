@@ -1,0 +1,74 @@
+---
+pagetitle: "Mentors · MIDSEA"
+page-layout: custom
+format:
+  html:
+    css: theme/midsea.css
+    include-in-header:
+      - theme/fonts.html
+---
+
+<div class="ppl-page" style="padding-top: 56px;">
+# Meet our mentors
+
+Senior modellers across the region have opened their calendars to mentor the next generation. Browse the wall, read what they love to work on, and contact who you'd like to learn from directly.
+
+[Sign up to be a mentor ↗](join.html){.btn .btn-primary style="margin-top:20px; text-decoration:none;"}
+</div>
+
+```{=html}
+<section class="ment-page">
+  <!-- FILTER BAR -->
+  <nav class="ment-filters" id="ment-filters" aria-label="Filter mentors" style="margin-top: 40px;">
+    <div class="ment-fgroup">
+      <span class="ment-flabel">Topic</span>
+      <button class="chip on" data-f="topic" data-v="all">All</button>
+      <button class="chip" data-f="topic" data-v="Dengue">Dengue</button>
+      <button class="chip" data-f="topic" data-v="Malaria">Malaria</button>
+      <button class="chip" data-f="topic" data-v="Respiratory">Respiratory</button>
+      <button class="chip" data-f="topic" data-v="AMR">AMR</button>
+      <button class="chip" data-f="topic" data-v="Zoonoses">Zoonoses</button>
+      <button class="chip" data-f="topic" data-v="TB">TB</button>
+      <button class="chip" data-f="topic" data-v="Methods">Methods</button>
+    </div>
+    <div class="ment-fgroup">
+      <span class="ment-flabel">Country</span>
+      <button class="chip on" data-f="country" data-v="all">All</button>
+      <button class="chip" data-f="country" data-v="Thailand">Thailand</button>
+      <button class="chip" data-f="country" data-v="Viet Nam">Viet Nam</button>
+      <button class="chip" data-f="country" data-v="Indonesia">Indonesia</button>
+      <button class="chip" data-f="country" data-v="Malaysia">Malaysia</button>
+      <button class="chip" data-f="country" data-v="Singapore">Singapore</button>
+      <button class="chip" data-f="country" data-v="Philippines">Philippines</button>
+      <button class="chip" data-f="country" data-v="Cambodia">Cambodia</button>
+      <button class="chip" data-f="country" data-v="Myanmar">Myanmar</button>
+    </div>
+    <div class="ment-fcount" id="ment-count">46 mentors</div>
+  </nav>
+
+  <!-- MENTOR WALL -->
+  <div class="ment-wall" id="ment-wall" aria-live="polite"></div>
+
+  <!-- DETAIL OVERLAY -->
+  <div class="ment-overlay" id="ment-overlay" aria-hidden="true">
+    <div class="ment-sheet" role="dialog" aria-modal="true">
+      <button class="ment-close" aria-label="Close">×</button>
+      <div class="ment-sheet-face" id="ov-face"></div>
+      <div class="ment-sheet-body">
+        <div class="ment-sheet-eye" id="ov-eye"></div>
+        <h2 id="ov-name">—</h2>
+        <div class="ment-sheet-role"><span id="ov-role">—</span> · <span id="ov-inst">—</span></div>
+        <p id="ov-bio" class="ment-sheet-bio"></p>
+        <div class="ment-sheet-meta">
+          <div><div class="k">Based in</div><div class="v" id="ov-country">—</div></div>
+          <div><div class="k">Mentoring since</div><div class="v" id="ov-since">—</div></div>
+          <div><div class="k">Speaks</div><div class="v" id="ov-langs">—</div></div>
+        </div>
+        <div class="ment-sheet-topics" id="ov-topics"></div>
+        <div class="ment-sheet-quote" id="ov-quote"></div>
+        <a class="btn btn-primary" id="ov-contact" href="#">Contact directly ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+```

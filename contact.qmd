@@ -1,0 +1,38 @@
+---
+title: "Contact"
+subtitle: "Say hello — or tell us what we're missing."
+page-layout: article
+---
+
+::: {.contact}
+
+::: {.card}
+[General]{.lbl}
+[[hello@midsea.network](mailto:hello@midsea.network)]{.val}
+:::
+
+::: {.card}
+[Press & media]{.lbl}
+[[press@midsea.network](mailto:press@midsea.network)]{.val}
+:::
+
+::: {.card}
+[Partnerships]{.lbl}
+[[partners@midsea.network](mailto:partners@midsea.network)]{.val}
+:::
+
+::: {.card}
+[Coordination Hub]{.lbl}
+::: {.val}
+Faculty of Tropical Medicine, Mahidol University
+<br>
+[BANGKOK 10400, THAILAND]{.mono}
+:::
+:::
+
+::: {.card}
+[Follow]{.lbl}
+[[Bluesky](#) · [GitHub](#) · [LinkedIn](#)]{.val}
+:::
+
+:::

@@ -1,0 +1,9 @@
+---
+title: "MIDSEA 2026 — Bangkok"
+date: 2026-09-18
+kind: "Annual Symposium"
+location: "Mahidol University, Bangkok · Hybrid · 3 days"
+featured: true
+---
+
+The flagship annual symposium of the MIDSEA network, bringing together researchers, public health practitioners, and policymakers from across South East Asia. Three days of plenary talks, thematic sessions, and hands-on workshops.

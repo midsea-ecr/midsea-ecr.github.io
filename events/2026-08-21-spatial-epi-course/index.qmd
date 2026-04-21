@@ -1,0 +1,8 @@
+---
+title: "Spatial epidemiology with R & Stan"
+date: 2026-08-21
+kind: "Short Course"
+location: "Jakarta · 4 days · Limited seats"
+---
+
+A four-day short course on spatial epidemiology methods using R and Stan. Covers point processes, INLA, disease mapping on coarse surveillance data, and practical applications in South East Asian settings.

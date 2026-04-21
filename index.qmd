@@ -1,0 +1,78 @@
+---
+pagetitle: "MIDSEA — Modelling Infectious Diseases in South East Asia"
+page-layout: custom
+format:
+  html:
+    css: theme/midsea.css
+---
+
+::: {.hero #home}
+::: {.hero-grid}
+::: {.hero-left}
+::: {.hero-top}
+[[·]{.pulse} Live · 2026 summer school is coming]{.hero-chip}
+:::
+
+# Modelling <br>[infectious diseases]{.em} in<br>South East Asia{.hero-title}
+
+::: {.hero-actions}
+[Join the network ↗](join.qmd){.btn .btn-primary}
+[Explore research](research.qmd){.btn .btn-ghost}
+:::
+
+::: {.hero-meta}
+::: {.cell}
+::: {.k}
+Members
+:::
+::: {.v}
+83
+:::
+:::
+
+::: {.cell}
+::: {.k}
+Countries
+:::
+::: {.v}
+10
+:::
+:::
+
+::: {.cell}
+::: {.k}
+Since
+:::
+::: {.v}
+2023
+:::
+:::
+:::
+:::
+
+::: {.hero-right}
+<svg class="hero-network" viewBox="0 0 640 640" id="hero-net" aria-hidden="true"></svg>
+:::
+:::
+
+::: {.hero-previews}
+::: {.preview-col}
+::: {.preview-head}
+[Upcoming]{.eyebrow}
+[All events →](events.qmd){.preview-more}
+:::
+::: {.preview-list #hero-events}
+:::
+:::
+
+::: {.preview-col}
+::: {.preview-head}
+[Latest news]{.eyebrow style="color: var(--accent-2);"}
+[All news →](news.qmd){.preview-more}
+:::
+::: {.preview-list #hero-news}
+:::
+:::
+:::
+:::
+

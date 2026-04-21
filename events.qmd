@@ -1,0 +1,15 @@
+---
+title: "Events"
+subtitle: "Symposia, workshops & working groups."
+page-layout: article
+listing:
+  id: events
+  contents: events
+  type: default
+  sort: "date asc"
+  fields: [date, title, description]
+  sort-ui: [date]
+---
+
+::: {#events}
+:::

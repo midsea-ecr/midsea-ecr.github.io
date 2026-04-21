@@ -1,0 +1,31 @@
+[
+  {
+    "listing": "/training.html",
+    "items": []
+  },
+  {
+    "listing": "/events.html",
+    "items": [
+      "/events/2026-05-12-reproducible-pipelines/index.html",
+      "/events/2026-06-03-bayesian-summer-school/index.html",
+      "/events/2026-07-09-amr-quarterly/index.html",
+      "/events/2026-08-21-spatial-epi-course/index.html",
+      "/events/2026-09-18-midsea-bangkok/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2026-04-14-dengue-lancet/index.html",
+      "/posts/2026-04-02-funding-extension/index.html",
+      "/posts/2026-03-22-asean-brief/index.html",
+      "/posts/2026-03-05-mentorship-cohort/index.html",
+      "/posts/2026-02-11-validation-notebooks/index.html",
+      "/posts/2026-01-23-session-chairs/index.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": []
+  }
+]

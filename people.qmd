@@ -1,0 +1,133 @@
+---
+pagetitle: "People · MIDSEA"
+page-layout: custom
+format:
+  html:
+    css: theme/midsea.css
+    include-in-header:
+      - theme/fonts.html
+---
+
+<div class="ppl-page" style="padding-top: 56px;">
+# Meet our people
+
+Any researcher based in or working on **South East Asia** is welcome. Free to join, searchable across the region.
+
+[Become a member ↗](join.html){.btn .btn-primary style="margin-top:20px; margin-right:12px; text-decoration:none;"}
+[Browse directory](#ppl-azbar){.btn .btn-ghost style="margin-top:20px; text-decoration:none;"}
+
+<!-- running typographic byline: country tally -->
+<div class="ppl-tally" id="ppl-tally" aria-hidden="true" style="margin-top: 56px; border-bottom: none;"></div>
+
+
+```{=html}
+  <!-- ============ INDEX RAIL (A–Z) ============ -->
+  <nav class="ppl-azbar" id="ppl-azbar" aria-label="Jump to letter">
+    <span class="ppl-azlabel">Index</span>
+    <div class="ppl-azletters" id="ppl-azletters"></div>
+  </nav>
+
+  <!-- ============ BODY: FILTERS + DIRECTORY ============ -->
+  <div class="ppl-body">
+
+    <!-- Sticky filter column -->
+    <div class="ppl-side">
+      <div class="ppl-search">
+        <svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="9" r="6"/><path d="M14 14l4 4"/></svg>
+        <input id="ppl-q" type="text" placeholder="Search name, topic, institution…">
+        <button id="ppl-qclear" aria-label="Clear">×</button>
+      </div>
+
+      <div class="ppl-fgroup">
+        <div class="ppl-fhead">Stage</div>
+        <div class="ppl-fchips" data-f="stage">
+          <button class="chip on" data-v="all">All</button>
+          <button class="chip" data-v="PhD">PhD</button>
+          <button class="chip" data-v="Postdoc">Postdoc</button>
+          <button class="chip" data-v="Faculty">Faculty</button>
+          <button class="chip" data-v="Senior">Senior</button>
+          <button class="chip" data-v="PH">Public health</button>
+        </div>
+      </div>
+
+      <div class="ppl-fgroup">
+        <div class="ppl-fhead">Topic</div>
+        <div class="ppl-fchips" data-f="topic">
+          <button class="chip on" data-v="all">All</button>
+          <button class="chip" data-v="Dengue">Dengue</button>
+          <button class="chip" data-v="Malaria">Malaria</button>
+          <button class="chip" data-v="Respiratory">Respiratory</button>
+          <button class="chip" data-v="AMR">AMR</button>
+          <button class="chip" data-v="Zoonoses">Zoonoses</button>
+          <button class="chip" data-v="TB">TB</button>
+          <button class="chip" data-v="Methods">Methods</button>
+          <button class="chip" data-v="Vaccine">Vaccine</button>
+        </div>
+      </div>
+
+      <div class="ppl-fgroup">
+        <div class="ppl-fhead">Country</div>
+        <div class="ppl-fchips" data-f="country">
+          <button class="chip on" data-v="all">All</button>
+          <button class="chip" data-v="Thailand">Thailand</button>
+          <button class="chip" data-v="Viet Nam">Viet Nam</button>
+          <button class="chip" data-v="Indonesia">Indonesia</button>
+          <button class="chip" data-v="Malaysia">Malaysia</button>
+          <button class="chip" data-v="Singapore">Singapore</button>
+          <button class="chip" data-v="Philippines">Philippines</button>
+          <button class="chip" data-v="Cambodia">Cambodia</button>
+          <button class="chip" data-v="Myanmar">Myanmar</button>
+          <button class="chip" data-v="Laos">Laos</button>
+          <button class="chip" data-v="Timor-Leste">Timor-Leste</button>
+        </div>
+      </div>
+
+      <div class="ppl-fgroup">
+        <div class="ppl-fhead">Sort</div>
+        <div class="ppl-fchips ppl-sort" data-f="sort">
+          <button class="chip on" data-v="name">Name A–Z</button>
+          <button class="chip" data-v="country">By country</button>
+          <button class="chip" data-v="stage">By stage</button>
+          <button class="chip" data-v="recent">Recently joined</button>
+        </div>
+      </div>
+
+      <div class="ppl-count" id="ppl-count">— members</div>
+    </div>
+
+    <!-- Scrolling directory -->
+    <div class="ppl-main">
+      <div id="ppl-list" class="ppl-list"></div>
+      <div class="ppl-empty" id="ppl-empty" hidden>
+        <div>No members match those filters.</div>
+        <button class="btn btn-ghost" id="ppl-reset">Reset</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ============ DETAIL OVERLAY ============ -->
+  <div class="ppl-overlay" id="ppl-overlay" aria-hidden="true">
+    <div class="ppl-sheet" role="dialog" aria-modal="true">
+      <button class="ppl-close" id="ppl-close" aria-label="Close">×</button>
+      <div class="ppl-sheet-face" id="ov-face"></div>
+      <div class="ppl-sheet-body">
+        <div class="ppl-sheet-eye" id="ov-eye">—</div>
+        <h2 id="ov-name">—</h2>
+        <div class="ppl-sheet-role"><span id="ov-role">—</span> · <span id="ov-inst">—</span></div>
+        <p id="ov-bio" class="ppl-sheet-bio"></p>
+        <div class="ppl-sheet-meta">
+          <div><div class="k">Based in</div><div class="v" id="ov-country">—</div></div>
+          <div><div class="k">Member since</div><div class="v" id="ov-since">—</div></div>
+          <div><div class="k">Stage</div><div class="v" id="ov-stage">—</div></div>
+          <div><div class="k">Languages</div><div class="v" id="ov-langs">—</div></div>
+        </div>
+        <div class="ppl-sheet-topics" id="ov-topics"></div>
+        <div class="ppl-sheet-paper" id="ov-paper"></div>
+        <a class="btn btn-primary" href="join.html">Get in touch ↗</a>
+      </div>
+    </div>
+  </div>
+
+```
+</div>

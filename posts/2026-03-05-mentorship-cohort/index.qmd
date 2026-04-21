@@ -1,0 +1,8 @@
+---
+title: "Meet the 2026 mentorship cohort — 24 new pairs"
+date: 2026-03-05
+categories: [People]
+description: "Our largest cohort yet, spanning nine countries and six disease areas."
+---
+
+We are excited to announce our largest mentorship cohort to date: 24 mentor-mentee pairs spanning nine countries and six disease areas. The 2026 cohort includes researchers working on dengue, malaria, AMR, TB, respiratory infections, and zoonoses.

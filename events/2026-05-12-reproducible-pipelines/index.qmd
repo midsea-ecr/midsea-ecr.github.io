@@ -1,0 +1,8 @@
+---
+title: "Reproducible pipelines for vector models"
+date: 2026-05-12
+kind: "Workshop"
+location: "Online · 2 half-days"
+---
+
+A hands-on workshop on building reproducible analysis pipelines for vector-borne disease models. Covers containerisation, version control for model outputs, and automated reporting.

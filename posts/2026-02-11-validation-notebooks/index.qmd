@@ -1,0 +1,8 @@
+---
+title: "Open-sourcing the MIDSEA validation notebooks"
+date: 2026-02-11
+categories: [Tooling]
+description: "A shared suite to check whether your compartmental model does what the paper says it does."
+---
+
+We are releasing the MIDSEA validation notebook suite as open-source software. This collection of Jupyter and Quarto notebooks provides standardised checks for compartmental models, helping researchers verify that their implementations match published specifications.

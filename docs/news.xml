@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>MIDSEA</title>
+<link>https://midsea.network/news.html</link>
+<atom:link href="https://midsea.network/news.xml" rel="self" type="application/rss+xml"/>
+<description>Modelling Infectious Diseases in South East Asia</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Mon, 13 Apr 2026 17:00:00 GMT</lastBuildDate>
+<item>
+  <title>Dengue serotype dynamics paper accepted at Lancet ID</title>
+  <link>https://midsea.network/posts/2026-04-14-dengue-lancet/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The network’s flagship multi-country study on dengue serotype dynamics has been accepted for publication in The Lancet Infectious Diseases. This paper represents two years of collaborative data harmonisation across six MIDSEA member countries.</p>
+
+
+
+ ]]></description>
+  <category>Preprint</category>
+  <guid>https://midsea.network/posts/2026-04-14-dengue-lancet/</guid>
+  <pubDate>Mon, 13 Apr 2026 17:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>MIDSEA receives Funding Award extension</title>
+  <link>https://midsea.network/posts/2026-04-02-funding-extension/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are pleased to announce that the MIDSEA network has received a three-year funding extension to continue building the regional modelling hub. The extended grant includes capacity-building grants for four new partner institutions across the region.</p>
+
+
+
+ ]]></description>
+  <category>Funding</category>
+  <guid>https://midsea.network/posts/2026-04-02-funding-extension/</guid>
+  <pubDate>Wed, 01 Apr 2026 17:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Response brief delivered to ASEAN health ministers</title>
+  <link>https://midsea.network/posts/2026-03-22-asean-brief/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>MIDSEA has delivered a policy response brief to the ASEAN health ministers’ meeting, presenting recommendations on cross-border disease surveillance informed by our model ensemble results. The brief covers dengue, malaria, and respiratory pathogens.</p>
+
+
+
+ ]]></description>
+  <category>Policy</category>
+  <guid>https://midsea.network/posts/2026-03-22-asean-brief/</guid>
+  <pubDate>Sat, 21 Mar 2026 17:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Meet the 2026 mentorship cohort — 24 new pairs</title>
+  <link>https://midsea.network/posts/2026-03-05-mentorship-cohort/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are excited to announce our largest mentorship cohort to date: 24 mentor-mentee pairs spanning nine countries and six disease areas. The 2026 cohort includes researchers working on dengue, malaria, AMR, TB, respiratory infections, and zoonoses.</p>
+
+
+
+ ]]></description>
+  <category>People</category>
+  <guid>https://midsea.network/posts/2026-03-05-mentorship-cohort/</guid>
+  <pubDate>Wed, 04 Mar 2026 17:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Open-sourcing the MIDSEA validation notebooks</title>
+  <link>https://midsea.network/posts/2026-02-11-validation-notebooks/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are releasing the MIDSEA validation notebook suite as open-source software. This collection of Jupyter and Quarto notebooks provides standardised checks for compartmental models, helping researchers verify that their implementations match published specifications.</p>
+
+
+
+ ]]></description>
+  <category>Tooling</category>
+  <guid>https://midsea.network/posts/2026-02-11-validation-notebooks/</guid>
+  <pubDate>Tue, 10 Feb 2026 17:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Call for Bangkok 2026 session chairs</title>
+  <link>https://midsea.network/posts/2026-01-23-session-chairs/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We are now accepting proposals for session chairs at the MIDSEA 2026 symposium in Bangkok. The symposium will feature six thematic tracks, and we particularly encourage applications from early-career researchers. Proposals are due by 15 May 2026.</p>
+
+
+
+ ]]></description>
+  <category>Community</category>
+  <guid>https://midsea.network/posts/2026-01-23-session-chairs/</guid>
+  <pubDate>Thu, 22 Jan 2026 17:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
