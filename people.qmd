@@ -39,6 +39,16 @@ Any researcher based in or working on **South East Asia** is welcome. Free to jo
       </div>
 
       <div class="ppl-fgroup">
+        <div class="ppl-fhead">Sort</div>
+        <div class="ppl-fchips ppl-sort" data-f="sort">
+          <button class="chip on" data-v="name">Name A–Z</button>
+          <button class="chip" data-v="country">By country</button>
+          <button class="chip" data-v="stage">By stage</button>
+          <button class="chip" data-v="recent">Recently joined</button>
+        </div>
+      </div>
+
+      <div class="ppl-fgroup">
         <div class="ppl-fhead">Stage</div>
         <div class="ppl-fchips" data-f="stage">
           <button class="chip on" data-v="all">All</button>
@@ -79,16 +89,6 @@ Any researcher based in or working on **South East Asia** is welcome. Free to jo
           <button class="chip" data-v="Myanmar">Myanmar</button>
           <button class="chip" data-v="Laos">Laos</button>
           <button class="chip" data-v="Timor-Leste">Timor-Leste</button>
-        </div>
-      </div>
-
-      <div class="ppl-fgroup">
-        <div class="ppl-fhead">Sort</div>
-        <div class="ppl-fchips ppl-sort" data-f="sort">
-          <button class="chip on" data-v="name">Name A–Z</button>
-          <button class="chip" data-v="country">By country</button>
-          <button class="chip" data-v="stage">By stage</button>
-          <button class="chip" data-v="recent">Recently joined</button>
         </div>
       </div>
 
