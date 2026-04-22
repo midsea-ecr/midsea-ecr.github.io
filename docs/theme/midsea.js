@@ -124,26 +124,43 @@ function buildHeroNetwork() {
     if (n.label) labelledIndices.push(i);
   });
 
-  // --- Highlight logic ---
-  let activeIdx = -1;
+  // --- Highlight logic (supports multiple simultaneously active nodes) ---
+  let active = new Set();
 
-  function setHighlight(idx) {
-    if (idx === activeIdx) return;
-    activeIdx = idx;
+  function sameSet(a, b) {
+    if (a.size !== b.size) return false;
+    for (const v of a) if (!b.has(v)) return false;
+    return true;
+  }
+
+  function makePulse(fromIdx, toIdx) {
+    const from = nodes[fromIdx], to = nodes[toIdx];
+    const pulse = document.createElementNS(ns, 'circle');
+    pulse.setAttribute('r', '2.5');
+    pulse.setAttribute('fill', 'currentColor');
+    pulse.setAttribute('opacity', '0.6');
+    const anim = document.createElementNS(ns, 'animateMotion');
+    anim.setAttribute('dur', '2s');
+    anim.setAttribute('repeatCount', 'indefinite');
+    anim.setAttribute('path', `M ${from.x} ${from.y} L ${to.x} ${to.y}`);
+    pulse.appendChild(anim);
+    pulseGroup.appendChild(pulse);
+  }
+
+  function setHighlights(indices) {
+    const next = new Set(indices);
+    if (sameSet(next, active)) return;
+    active = next;
 
     // Update nodes
     nodeGroups.forEach(ng => {
-      const isActive = ng.idx === idx;
-      const isNeighbor = idx >= 0 && adjacency[idx].includes(ng.idx);
+      const isActive = active.has(ng.idx);
 
-      // Halo
       ng.halo.setAttribute('fill-opacity', isActive ? '0.12' : '0');
 
-      // Ring animation
       if (ng.ring) {
         if (isActive) {
           ng.ring.setAttribute('stroke-opacity', '0.5');
-          // Add pulsing animation
           if (!ng.ring.querySelector('animate')) {
             const animR = document.createElementNS(ns, 'animate');
             animR.setAttribute('attributeName', 'r');
@@ -160,62 +177,56 @@ function buildHeroNetwork() {
           }
         } else {
           ng.ring.setAttribute('stroke-opacity', '0');
-          // Remove animation elements to save resources
           while (ng.ring.firstChild) ng.ring.removeChild(ng.ring.firstChild);
         }
       }
 
-      // Fill: active nodes get solid fill, others stay hollow
       ng.circle.setAttribute('fill', isActive ? 'currentColor' : 'var(--bg)');
     });
 
-    // Update edges — active edges become solid, others stay dashed
+    // Update edges — any edge touching an active node lights up
     linkEls.forEach(le => {
-      const isActive = (idx === le.a || idx === le.b);
+      const isActive = active.has(le.a) || active.has(le.b);
       le.el.setAttribute('stroke-opacity', isActive ? '0.45' : '0.2');
       le.el.setAttribute('stroke-width', isActive ? '1.5' : '1');
       le.el.setAttribute('stroke-dasharray', isActive ? 'none' : '3 4');
     });
 
-    // Traveling dots: clear old, spawn new on active edges from highlighted node outward
+    // Traveling dots: for each edge with an active endpoint, send a pulse
+    // outward from each active endpoint (two pulses if both endpoints active).
     pulseGroup.innerHTML = '';
-    if (!prefersReduced && idx >= 0) {
+    if (!prefersReduced && active.size > 0) {
       linkEls.forEach(le => {
-        const isActive = (idx === le.a || idx === le.b);
-        if (!isActive) return;
-        // Direction: from highlighted node to the other end
-        const from = nodes[idx], to = nodes[idx === le.a ? le.b : le.a];
-        const pulse = document.createElementNS(ns, 'circle');
-        pulse.setAttribute('r', '2.5');
-        pulse.setAttribute('fill', 'currentColor');
-        pulse.setAttribute('opacity', '0.6');
-        const anim = document.createElementNS(ns, 'animateMotion');
-        anim.setAttribute('dur', '2s');
-        anim.setAttribute('repeatCount', 'indefinite');
-        anim.setAttribute('path', `M ${from.x} ${from.y} L ${to.x} ${to.y}`);
-        pulse.appendChild(anim);
-        pulseGroup.appendChild(pulse);
+        const aActive = active.has(le.a);
+        const bActive = active.has(le.b);
+        if (aActive) makePulse(le.a, le.b);
+        if (bActive) makePulse(le.b, le.a);
       });
     }
   }
 
-  // --- Hover events ---
+  // --- Hover events (hover focuses a single node, auto-cycle pauses) ---
   nodeGroups.forEach(ng => {
     if (!ng.node.label) return;
-    ng.g.addEventListener('mouseenter', () => { setHighlight(ng.idx); pauseCycle(); });
+    ng.g.addEventListener('mouseenter', () => { setHighlights([ng.idx]); pauseCycle(); });
     ng.g.addEventListener('mouseleave', () => { resumeCycle(); });
-    ng.g.addEventListener('touchstart', () => { setHighlight(ng.idx); pauseCycle(); }, { passive: true });
+    ng.g.addEventListener('touchstart', () => { setHighlights([ng.idx]); pauseCycle(); }, { passive: true });
     ng.g.addEventListener('touchend', () => { resumeCycle(); }, { passive: true });
   });
 
-  // --- Auto-cycle with setInterval (no rAF loop) ---
+  // --- Auto-cycle: pick 2–3 random nodes each beat ---
   let cycleId = null;
-  function cycle() {
-    let next;
-    do { next = labelledIndices[Math.floor(Math.random() * labelledIndices.length)]; }
-    while (next === activeIdx && labelledIndices.length > 1);
-    setHighlight(next);
+  function pickGroup() {
+    const count = Math.min(2 + Math.floor(Math.random() * 2), labelledIndices.length); // 2 or 3
+    const pool = labelledIndices.slice();
+    // Fisher–Yates partial shuffle
+    for (let i = pool.length - 1; i > pool.length - 1 - count; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    return pool.slice(pool.length - count);
   }
+  function cycle() { setHighlights(pickGroup()); }
   function startCycle() { cycle(); cycleId = setInterval(cycle, 3500); }
   function pauseCycle() { if (cycleId) { clearInterval(cycleId); cycleId = null; } }
   function resumeCycle() { startCycle(); }
@@ -787,16 +798,26 @@ window.addEventListener('DOMContentLoaded', () => {
     render();
   });
 
+  // Open a mentor's detail overlay if the URL has a matching #id fragment
+  // (used by the Matchmaker page to deep-link into a suggested mentor).
+  function openFromHash(){
+    const id = (location.hash || '').replace(/^#/, '');
+    if(!id) return;
+    const m = MENTORS.find(x => x.id === id);
+    if(m) openMentor(id);
+  }
+  window.addEventListener('hashchange', openFromHash);
+
   // Fetch the data from CSV (simulating Google Form spreadsheet export)
   fetch('data/mentors.csv')
     .then(r => r.text())
     .then(text => {
       MENTORS = parseCSV(text);
-      // Wait for DOM
+      const boot = () => { render(); openFromHash(); };
       if(document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', render);
+        document.addEventListener('DOMContentLoaded', boot);
       } else {
-        render();
+        boot();
       }
     })
     .catch(err => console.error("Could not load mentors:", err));

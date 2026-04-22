@@ -152,7 +152,78 @@ ul.task-list li input[type="checkbox"] {
 <section id="meet-our-mentors" class="level1 ppl-page" style="padding-top: 56px;">
 <h1>Meet our mentors</h1>
 <p>Senior modellers across the region have opened their calendars to mentor the next generation. Browse the wall, read what they love to work on, and contact who you’d like to learn from directly.</p>
-<p><a href="join.html" class="btn btn-primary" style="margin-top:20px; text-decoration:none;">Sign up to be a mentor ↗</a></p>
+<p><a href="join.html" class="btn btn-primary" style="margin-top:20px; text-decoration:none;">Become a mentor ↗</a></p>
+<aside class="mm-cta" aria-label="Mentor matchmaker">
+  <div class="mm-cta-art" aria-hidden="true">
+    <svg viewbox="0 0 520 520" width="100%" height="100%" preserveaspectratio="xMidYMid meet">
+      <defs>
+        <radialgradient id="mm-o" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f5c6ff"></stop><stop offset="100%" stop-color="#7410c6"></stop></radialgradient>
+        <radialgradient id="mm-c" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffe6a1"></stop><stop offset="100%" stop-color="#e08a00"></stop></radialgradient>
+        <radialgradient id="mm-e" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffb3c4"></stop><stop offset="100%" stop-color="#e3325f"></stop></radialgradient>
+        <radialgradient id="mm-a" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#b7ecd4"></stop><stop offset="100%" stop-color="#12a37a"></stop></radialgradient>
+        <radialgradient id="mm-n" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#a9d6ff"></stop><stop offset="100%" stop-color="#1e5fb8"></stop></radialgradient>
+      </defs>
+      <circle cx="260" cy="160" r="120" fill="url(#mm-o)" opacity="0.85"></circle>
+      <circle cx="170" cy="260" r="130" fill="url(#mm-c)" opacity="0.85"></circle>
+      <circle cx="350" cy="260" r="125" fill="url(#mm-e)" opacity="0.85"></circle>
+      <circle cx="210" cy="370" r="115" fill="url(#mm-a)" opacity="0.85"></circle>
+      <circle cx="320" cy="370" r="120" fill="url(#mm-n)" opacity="0.85"></circle>
+    </svg>
+  </div>
+  <div class="mm-cta-body">
+    <div class="mm-cta-eye"><span class="dot"></span> Fun · 3 min · optional</div>
+    <h3 class="mm-cta-h" data-anchor-id="meet-our-mentors">Not sure whose style fits yours?</h3>
+    <p class="mm-cta-p">Take a playful <b>Big Five</b> personality quiz and we'll suggest mentors whose character complements — not mirrors — your own. You'll also get an RPG-style character card to keep.</p>
+    <a class="btn btn-primary mm-cta-btn" href="matchmaker.html">Try the Matchmaker →</a>
+  </div>
+</aside>
+
+<style>
+  .mm-cta {
+    margin: 36px 0 4px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: clamp(20px, 4vw, 40px);
+    align-items: center;
+    padding: 22px clamp(20px, 3vw, 32px);
+    border-radius: 22px;
+    background:
+      radial-gradient(120% 140% at 0% 0%, rgba(116,16,198,0.08), transparent 60%),
+      radial-gradient(120% 140% at 100% 100%, rgba(242,201,76,0.14), transparent 60%),
+      #fff;
+    border: 1px solid rgba(116,16,198,0.18);
+    box-shadow: 0 12px 40px -24px rgba(116,16,198,0.35);
+  }
+  .mm-cta-art { width: 200px; max-width: 100%; aspect-ratio: 1 / 1;
+    animation: mm-float 9s ease-in-out infinite; }
+  .mm-cta-art svg { display: block; width: 100%; height: 100%; overflow: visible; }
+  @keyframes mm-float { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-6px) rotate(-1.5deg)} }
+  .mm-cta-eye {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: #4a4060; margin-bottom: 10px;
+  }
+  .mm-cta-eye .dot { width: 7px; height: 7px; border-radius: 50%; background: #7410c6;
+    box-shadow: 0 0 0 0 rgba(116,16,198,.55); animation: mm-pulse 2.4s infinite; }
+  @keyframes mm-pulse { 0%{box-shadow:0 0 0 0 rgba(116,16,198,.55)} 80%{box-shadow:0 0 0 8px rgba(116,16,198,0)} 100%{box-shadow:0 0 0 0 rgba(116,16,198,0)} }
+  .mm-cta-h {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    font-size: clamp(1.3rem, 2vw, 1.7rem); font-weight: 500;
+    letter-spacing: -0.02em; line-height: 1.15;
+    margin: 0 0 8px; color: #1a0f36;
+  }
+  .mm-cta-p {
+    font-size: 14.5px; line-height: 1.5; color: #4a4060;
+    margin: 0 0 14px; max-width: 60ch;
+  }
+  .mm-cta-p b { color: #7410c6; font-weight: 600; }
+  .mm-cta-btn { text-decoration: none; }
+  @media (max-width: 720px) {
+    .mm-cta { grid-template-columns: 1fr; text-align: left; padding: 20px; }
+    .mm-cta-art { width: 140px; margin: 0 auto; }
+  }
+</style>
 </section>
 <section class="ment-page">
   <!-- FILTER BAR -->

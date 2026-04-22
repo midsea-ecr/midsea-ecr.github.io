@@ -28,25 +28,32 @@
     "text": "We are releasing the MIDSEA validation notebook suite as open-source software. This collection of Jupyter and Quarto notebooks provides standardised checks for compartmental models, helping researchers verify that their implementations match published specifications."
   },
   {
-    "objectID": "events/2026-09-18-midsea-bangkok/index.html",
-    "href": "events/2026-09-18-midsea-bangkok/index.html",
-    "title": "MIDSEA 2026 — Bangkok",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join MIDSEA",
     "section": "",
-    "text": "The flagship annual symposium of the MIDSEA network, bringing together researchers, public health practitioners, and policymakers from across South East Asia. Three days of plenary talks, thematic sessions, and hands-on workshops."
+    "text": "Membership is free and open to anyone based in or working on South East Asia — from first-year PhD students to senior professors, and from within and beyond academia.\nWhat you get\n\nDirectory listing — profile in the members directory with a link to your work.\nAnnual symposium — reduced registration and travel bursaries for ECRs.\nSlack & working groups — disease-specific channels, shared pipelines, quick code reviews.\nTraining access — free seats in every MIDSEA summer school and short course.\n\n\n\n\n  Full name\n  Institution\n  Country\n    \n      Viet NamThailandIndonesia\n      PhilippinesMalaysiaSingapore\n      CambodiaLaosMyanmar\n      BruneiTimor-LesteOther\n    \n  \n  Career stage\n    \n      PhD student\n      Postdoc\n      Early faculty\n      Senior\n      Public health\n    \n  \n  Interests\n    \n      Dengue\n      Malaria\n      Respiratory\n      AMR\n      Zoonoses\n      TB\n    \n  \n  \n    Submit application ↗"
   },
   {
-    "objectID": "events/2026-07-09-amr-quarterly/index.html",
-    "href": "events/2026-07-09-amr-quarterly/index.html",
-    "title": "AMR surveillance methods · quarterly meetup",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
     "section": "",
-    "text": "Quarterly meeting of the AMR working group to review progress on cross-country surveillance harmonisation, discuss new methods, and coordinate upcoming analyses."
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\nReproducible pipelines for vector models\n\n\n\n\n\n\n\n\nMay 12, 2026\n\n\n\n\n\n\n\nBayesian inference for infectious disease\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\nAMR surveillance methods · quarterly meetup\n\n\n\n\n\n\n\n\nJul 9, 2026\n\n\n\n\n\n\n\nSpatial epidemiology with R & Stan\n\n\n\n\n\n\n\n\nAug 21, 2026\n\n\n\n\n\n\n\nMIDSEA 2026 — Bangkok\n\n\n\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "events/2026-05-12-reproducible-pipelines/index.html",
-    "href": "events/2026-05-12-reproducible-pipelines/index.html",
-    "title": "Reproducible pipelines for vector models",
+    "objectID": "events/2026-08-21-spatial-epi-course/index.html",
+    "href": "events/2026-08-21-spatial-epi-course/index.html",
+    "title": "Spatial epidemiology with R & Stan",
     "section": "",
-    "text": "A hands-on workshop on building reproducible analysis pipelines for vector-borne disease models. Covers containerisation, version control for model outputs, and automated reporting."
+    "text": "A four-day short course on spatial epidemiology methods using R and Stan. Covers point processes, INLA, disease mapping on coarse surveillance data, and practical applications in South East Asian settings."
+  },
+  {
+    "objectID": "events/2026-06-03-bayesian-summer-school/index.html",
+    "href": "events/2026-06-03-bayesian-summer-school/index.html",
+    "title": "Bayesian inference for infectious disease",
+    "section": "",
+    "text": "An intensive five-day summer school covering Bayesian inference methods applied to infectious disease modelling. Topics include MCMC, hierarchical models, prior elicitation, and posterior predictive checks."
   },
   {
     "objectID": "about.html",
@@ -63,39 +70,25 @@
     "text": "Our principles\n\n\n\n→ 01\n\n\nOpen, reproducible science\nEvery MIDSEA model ships with code, data provenance, and validation notebooks under open licences.\n\nPractice\n\n\n\n→ 02\n\n\nRegionally grounded\nPriorities set by the region: surveillance gaps, seasonal vectors, demographic realities unique to SEA.\n\nFocus\n\n\n\n→ 03\n\n\nTraining-first\nAnnual schools, short courses and paired mentorship turn modelling into a shared regional capacity.\n\nPipeline\n\n\n\n→ 04\n\n\nPolicy-facing\nDirect channels to ministries of health and ASEAN-level bodies so models land where they matter.\n\nImpact"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "events/2026-05-12-reproducible-pipelines/index.html",
+    "href": "events/2026-05-12-reproducible-pipelines/index.html",
+    "title": "Reproducible pipelines for vector models",
     "section": "",
-    "text": "General hello@midsea.network\n\n\nPress & media press@midsea.network\n\n\nPartnerships partners@midsea.network\n\n\nCoordination Hub ::: {.val} Faculty of Tropical Medicine, Mahidol University  BANGKOK 10400, THAILAND\n\n\n\nFollow Bluesky · GitHub · LinkedIn\n\n:::"
+    "text": "A hands-on workshop on building reproducible analysis pipelines for vector-borne disease models. Covers containerisation, version control for model outputs, and automated reporting."
   },
   {
-    "objectID": "events/2026-06-03-bayesian-summer-school/index.html",
-    "href": "events/2026-06-03-bayesian-summer-school/index.html",
-    "title": "Bayesian inference for infectious disease",
+    "objectID": "events/2026-07-09-amr-quarterly/index.html",
+    "href": "events/2026-07-09-amr-quarterly/index.html",
+    "title": "AMR surveillance methods · quarterly meetup",
     "section": "",
-    "text": "An intensive five-day summer school covering Bayesian inference methods applied to infectious disease modelling. Topics include MCMC, hierarchical models, prior elicitation, and posterior predictive checks."
+    "text": "Quarterly meeting of the AMR working group to review progress on cross-country surveillance harmonisation, discuss new methods, and coordinate upcoming analyses."
   },
   {
-    "objectID": "events/2026-08-21-spatial-epi-course/index.html",
-    "href": "events/2026-08-21-spatial-epi-course/index.html",
-    "title": "Spatial epidemiology with R & Stan",
+    "objectID": "events/2026-09-18-midsea-bangkok/index.html",
+    "href": "events/2026-09-18-midsea-bangkok/index.html",
+    "title": "MIDSEA 2026 — Bangkok",
     "section": "",
-    "text": "A four-day short course on spatial epidemiology methods using R and Stan. Covers point processes, INLA, disease mapping on coarse surveillance data, and practical applications in South East Asian settings."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n\n\n\n\n\nReproducible pipelines for vector models\n\n\n\n\n\n\n\n\nMay 12, 2026\n\n\n\n\n\n\n\nBayesian inference for infectious disease\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\nAMR surveillance methods · quarterly meetup\n\n\n\n\n\n\n\n\nJul 9, 2026\n\n\n\n\n\n\n\nSpatial epidemiology with R & Stan\n\n\n\n\n\n\n\n\nAug 21, 2026\n\n\n\n\n\n\n\nMIDSEA 2026 — Bangkok\n\n\n\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join MIDSEA",
-    "section": "",
-    "text": "Membership is free and open to anyone based in or working on South East Asia — from first-year PhD students to senior professors, and from within and beyond academia.\nWhat you get\n\nDirectory listing — profile in the members directory with a link to your work.\nAnnual symposium — reduced registration and travel bursaries for ECRs.\nSlack & working groups — disease-specific channels, shared pipelines, quick code reviews.\nTraining access — free seats in every MIDSEA summer school and short course.\n\n\n\n\n  Full name\n  Institution\n  Country\n    \n      Viet NamThailandIndonesia\n      PhilippinesMalaysiaSingapore\n      CambodiaLaosMyanmar\n      BruneiTimor-LesteOther\n    \n  \n  Career stage\n    \n      PhD student\n      Postdoc\n      Early faculty\n      Senior\n      Public health\n    \n  \n  Interests\n    \n      Dengue\n      Malaria\n      Respiratory\n      AMR\n      Zoonoses\n      TB\n    \n  \n  \n    Submit application ↗"
+    "text": "The flagship annual symposium of the MIDSEA network, bringing together researchers, public health practitioners, and policymakers from across South East Asia. Three days of plenary talks, thematic sessions, and hands-on workshops."
   },
   {
     "objectID": "news.html",
